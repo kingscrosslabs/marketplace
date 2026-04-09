@@ -10,8 +10,9 @@
     {
       "name": "instagram-insights",
       "source": {
-        "source": "url",
-        "repo": "https://github.com/nickcruz/instagram-insights.git"
+        "source": "git-subdir",
+        "url": "https://github.com/nickcruz/instagram-insights.git",
+        "path": "plugins/instagram-insights"
       },
       "description": "Connect your Instagram account, sync performance data, and analyze content metrics — all through Claude.",
       "version": "1.0.0",
