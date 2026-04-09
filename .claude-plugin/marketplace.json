@@ -10,8 +10,8 @@
     {
       "name": "instagram-insights",
       "source": {
-        "source": "github",
-        "repo": "nickcruz/instagram-insights"
+        "source": "url",
+        "repo": "https://github.com/nickcruz/instagram-insights.git"
       },
       "description": "Connect your Instagram account, sync performance data, and analyze content metrics — all through Claude.",
       "version": "1.0.0",
