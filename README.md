@@ -8,7 +8,7 @@ This repository hosts Claude marketplace catalogs published by Kings Cross Labs.
 
 The catalog currently points to:
 
-- `instagram-insights` from [`nickcruz/instagram-insights`](https://github.com/nickcruz/instagram-insights)
+- `instagram-insights` for Instasights from [`nickcruz/instasights`](https://github.com/nickcruz/instasights)
 
 ## Install
 

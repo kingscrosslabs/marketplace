@@ -9,18 +9,14 @@
   "plugins": [
     {
       "name": "instagram-insights",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/nickcruz/instagram-insights.git",
-        "path": "plugins/instagram-insights"
-      },
-      "description": "Connect your Instagram account, sync performance data, and analyze content metrics — all through Claude.",
+      "source": "./plugins/instagram-insights/plugins/instagram-insights",
+      "description": "Instasights helps you connect your Instagram account, sync performance data, and analyze content metrics through Claude.",
       "version": "1.0.0",
       "author": {
         "name": "Nick Reyes"
       },
-      "homepage": "https://github.com/nickcruz/instagram-insights",
-      "repository": "https://github.com/nickcruz/instagram-insights",
+      "homepage": "https://github.com/nickcruz/instasights",
+      "repository": "https://github.com/nickcruz/instasights",
       "license": "MIT",
       "keywords": ["instagram", "analytics", "creator", "social-media", "mcp"],
       "category": "data-analysis"
