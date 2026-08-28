@@ -1,3 +1,0 @@
-[submodule "plugins/instagram-insights"]
-	path = plugins/instagram-insights
-	url = git@github.com:nickcruz/instagram-insights.git

@@ -4,19 +4,21 @@
   <a href="https://kingscrosslabs.com"><img alt="Kings Cross Labs" src="https://img.shields.io/badge/Website-kingscrosslabs.com-009900?style=for-the-badge"/></a>
 </p>
 
-This repository hosts Claude marketplace catalogs published by Kings Cross Labs.
+This repository hosts Claude marketplace catalogs published by King's Cross Labs.
 
 ## Install Instasights
 
-Install the current stateless Instasights plugin directly from [`nickcruz/instasights`](https://github.com/nickcruz/instasights):
+Run these commands in a Claude Code session, including Claude Code inside the Claude Desktop app:
 
 ```text
-/plugin marketplace add nickcruz/instasights
-/plugin install instasights@instasights-plugins
+/plugin marketplace add https://github.com/kingscrosslabs/marketplace.git
+/plugin install instasights@kingscrosslabs-marketplace
 ```
 
-Run these commands in a Claude Code session, including Claude Code inside the Claude Desktop app. Then ask Claude:
+Then ask Claude:
 
 > Connect my Instagram account and analyze the last 30 days.
 
-The legacy `instagram-insights@kingscrosslabs-marketplace` entry is deprecated; it installs the retired MCP-based implementation.
+Instasights opens Instagram authorization in your browser and queries professional-account analytics live through `https://instasights.kingscrosslabs.com`. It does not use an MCP server, analytics database, or synchronization job.
+
+Source: [`nickcruz/instasights`](https://github.com/nickcruz/instasights)

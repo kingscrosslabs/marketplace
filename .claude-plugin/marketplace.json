@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-marketplace.json",
   "name": "kingscrosslabs-marketplace",
   "owner": {
     "name": "King's Cross Labs"
@@ -8,17 +9,20 @@
   },
   "plugins": [
     {
-      "name": "instagram-insights",
-      "source": "./plugins/instagram-insights/plugins/instagram-insights",
-      "description": "Instasights helps you connect your Instagram account, sync performance data, and analyze content metrics through Claude.",
-      "version": "1.0.0",
+      "name": "instasights",
+      "source": {
+        "source": "github",
+        "repo": "nickcruz/instasights"
+      },
+      "description": "Connect Instagram and query live professional-account analytics through a stateless API.",
+      "version": "2.0.0",
       "author": {
         "name": "Nick Reyes"
       },
       "homepage": "https://github.com/nickcruz/instasights",
       "repository": "https://github.com/nickcruz/instasights",
       "license": "MIT",
-      "keywords": ["instagram", "analytics", "creator", "social-media", "mcp"],
+      "keywords": ["instagram", "analytics", "creator", "claude-code"],
       "category": "data-analysis"
     }
   ]
