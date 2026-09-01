@@ -8,7 +8,7 @@ This repository hosts Claude marketplace catalogs published by King's Cross Labs
 
 ## Install Instasights
 
-Run these commands in a Claude Code session, including Claude Code inside the Claude Desktop app:
+Run these commands in Claude Code, including Claude Code inside the Claude Desktop app:
 
 ```text
 /plugin marketplace add https://github.com/kingscrosslabs/marketplace.git
@@ -19,6 +19,8 @@ Then ask Claude:
 
 > Connect my Instagram account and analyze the last 30 days.
 
-Instasights opens Instagram authorization in your browser and queries professional-account analytics live through `https://instasights.kingscrosslabs.com`. It does not use an MCP server, analytics database, or synchronization job.
+Instasights 3.0 is an MCP-only plugin. Claude opens Instagram Login through standard MCP OAuth and discovers five typed, read-only analytics tools. The plugin contains no CLI, executable skill, local token file, analytics database, or synchronization job.
+
+Remote MCP endpoint: `https://instasights.kingscrosslabs.com/mcp`
 
 Source: [`nickcruz/instasights`](https://github.com/nickcruz/instasights)
